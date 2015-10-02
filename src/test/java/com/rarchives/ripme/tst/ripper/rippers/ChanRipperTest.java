@@ -50,7 +50,8 @@ public class ChanRipperTest extends RippersTest {
         List<URL> contentURLs = new ArrayList<URL>();
         // URLs that should return more than 1 image
         contentURLs.add(new URL("http://desuchan.net/v/res/7034.html"));
-        contentURLs.add(new URL("http://boards.420chan.org/ana/res/75984.php"));
+        // This test may fail from time to time as posts are archived
+        contentURLs.add(new URL("http://boards.420chan.org/qq/res/490374.php"));
         contentURLs.add(new URL("http://archive.4plebs.org/s4s/thread/3005257/"));
         contentURLs.add(new URL("http://drawchan.net/dc/dw/res/114910.html"));
 
