@@ -29,7 +29,8 @@ public class ChanRipperTest extends RippersTest {
         passURLs.add(new URL("http://desuchan.net/v/res/7034.html"));
         passURLs.add(new URL("http://boards.4chan.org/hr/thread/2214511"));
         passURLs.add(new URL("http://fgts.jp/r/thread/12225949/"));
-        passURLs.add(new URL("http://boards.420chan.org/ana/res/75984.php"));
+        // This test may fail from time to time as posts are archived
+        passURLs.add(new URL("http://boards.420chan.org/qq/res/490374.php"));
         passURLs.add(new URL("http://7chan.org/gif/res/23795.html"));
         passURLs.add(new URL("http://unichan2.org/b/res/518004.html"));
         passURLs.add(new URL("http://xchan.pw/porn/res/437.html"));

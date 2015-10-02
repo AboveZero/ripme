@@ -46,6 +46,8 @@ public class VideoRippersTest extends RippersTest {
         }
     }
     
+    /*
+     * Needs to be switched to HTML5
     public void testPornhubRipper() throws IOException {
         List<URL> contentURLs = new ArrayList<URL>();
         contentURLs.add(new URL("http://www.pornhub.com/view_video.php?viewkey=993166542"));
@@ -54,6 +56,7 @@ public class VideoRippersTest extends RippersTest {
             videoTestHelper(ripper);
         }
     }
+    */
 
     public void testVineRipper() throws IOException {
         List<URL> contentURLs = new ArrayList<URL>();
