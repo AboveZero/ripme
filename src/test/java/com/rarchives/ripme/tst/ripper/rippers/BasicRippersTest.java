@@ -16,7 +16,6 @@ import com.rarchives.ripme.ripper.rippers.GirlsOfDesireRipper;
 import com.rarchives.ripme.ripper.rippers.HentaifoundryRipper;
 import com.rarchives.ripme.ripper.rippers.ImagearnRipper;
 import com.rarchives.ripme.ripper.rippers.ImagebamRipper;
-import com.rarchives.ripme.ripper.rippers.ImagestashRipper;
 import com.rarchives.ripme.ripper.rippers.ImagevenueRipper;
 import com.rarchives.ripme.ripper.rippers.ImgboxRipper;
 import com.rarchives.ripme.ripper.rippers.MinusRipper;
